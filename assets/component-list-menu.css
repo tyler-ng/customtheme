@@ -28,3 +28,12 @@
   width: 10rem;
   padding: 0.5rem;
 }
+
+/* Smooth transitions for menu hover effects */
+.header__menu-item {
+  transition: color 0.3s ease;
+}
+
+.header__submenu {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
